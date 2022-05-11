@@ -1,3 +1,6 @@
+This project has code for a bot that adds slash commands to a server to automatically toggle
+the messagebility of specified channels
+
 YOU WILL NEED:
 	A discord application
 		Permissions: bot, applications.commands
