@@ -1,0 +1,38 @@
+[
+  {
+    "name":"togglemessageable",
+    "description":"Toggles the channels in the toggle messageable list",
+    "options":[]
+  },
+  {
+    "name":"addtoggle",
+    "description":"Choose a text channel to add to the toggle messageable list",
+    "options":[
+      {
+        "name":"target",
+        "description":"Pick a channel",
+        "required":true,
+        "type":7,
+        "channel_types":[0]
+      }
+    ]
+  },
+  {
+    "name":"removetoggle",
+    "description":"Removes a text channel from the list of channels to toggle as messageable",
+    "options":[
+      {
+        "name":"target",
+        "description":"Pick a channel",
+        "required":true,
+        "type":7,
+        "channel_types":[0]
+      }
+    ]
+  },
+  {
+    "name":"listtogglechannels",
+    "description":"Lists the channels that are set to be affected by the messageable toggle",
+    "options":[]
+  }
+]
