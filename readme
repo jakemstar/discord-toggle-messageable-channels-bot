@@ -1,0 +1,29 @@
+YOU WILL NEED:
+	A discord application
+		Permissions: bot, applications.commands
+	A bot on that application
+		Permissions: Manage Roles
+	
+	To create a config.json file in the root with the following data:
+	{
+		"clientId": "Insert your application clientId",
+		"guildId": "Insert the guildId this bot will be in",
+		"token": "Insert your bots token here"
+	}
+	
+AFTER THE BOT HAS JOINED:
+	Make sure to go to Server Settings -> Integrations -> {YOURBOTNAME}
+	to edit which roles can use slash commands and which channels can
+	have slash commands used in them
+	
+HOW IT WORKS:
+	There are four commands created by this bot:
+		/addtoggle
+			Adds a text channel to a list of channels to toggle
+		/removetoggle
+			Removes a text channel from the list of channels to toggle
+		/listtogglechannels
+			Lists the text channels in the list of channels to toggle
+		/togglemessageable
+			Toggles all channels in the list from 
+			messageable -> not messageable or not messageable -> messageable
