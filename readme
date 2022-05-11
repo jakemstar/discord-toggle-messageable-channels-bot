@@ -2,6 +2,7 @@ This project has code for a bot that adds slash commands to a server to automati
 the messagebility of specified channels
 
 YOU WILL NEED:
+	Somewhere to host the code (NodeJS)
 	A discord application
 		Permissions: bot, applications.commands
 	A bot on that application
